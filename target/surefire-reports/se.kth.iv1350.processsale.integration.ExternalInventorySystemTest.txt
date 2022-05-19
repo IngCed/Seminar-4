@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: se.kth.iv1350.processsale.integration.ExternalInventorySystemTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! - in se.kth.iv1350.processsale.integration.ExternalInventorySystemTest
+testUnableToConnectToDatabase  Time elapsed: 0.031 s  <<< ERROR!
+se.kth.iv1350.processsale.integration.ItemIdentifierInvalidException: The specified identifier 100000 does not exist.
+	at se.kth.iv1350.processsale.integration.ExternalInventorySystemTest.testUnableToConnectToDatabase(ExternalInventorySystemTest.java:41)
+

@@ -12,14 +12,6 @@ import se.kth.iv1350.processsale.model.Item;
 
 public class ExternalInventorySystemTest {
     
-@BeforeEach
-    public void setUp() {
-    }
-    
-    @AfterEach
-    public void tearDown() {
-    }
-    
     @Test
     public void testItemIdentifierInvalid() throws ItemIdentifierInvalidException,
             CouldNotConnectToDatabaseException {

@@ -30,7 +30,7 @@ public class ExternalInventorySystemTest {
             CouldNotConnectToDatabaseException {
         ExternalInventorySystem instance = new ExternalInventorySystem();
         try{
-        instance.fetchItemInformation(100000, 1, new Item());
+        instance.fetchItemInformation(0, 1, new Item());
         }
         catch(CouldNotConnectToDatabaseException cnctde){
             assertTrue(cnctde.getMessage().contains("A connection to the External Inventory"),
